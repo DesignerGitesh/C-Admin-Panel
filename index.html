@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://rawgit.com/louisremi/jquery-smartresize/master/jquery.throttledresize.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+</head>
+
+<body>
+    <input type="checkbox" id="nav-toggle">
+    <div class="side-bar">
+        <div class="side-logo">
+            <h3 class="side-logo-h3">
+                <img src="Img\logo (2).png" width="65px" alt="Logo">
+            </h3>
+        </div>
+        <div class="inner-left-side-bar">
+            <div class="inner-nav-box">
+                <ul>
+                    <li>
+                        <h2>
+                            <a href="" class="a-flex active">
+                                <i class="fa fa-dashboard fa-inner-icon fa-icon"></i>
+                            </a>
+                        </h2>
+                    </li>
+                    <li>
+                        <h2>
+                            <a href="" class="a-flex">
+                                <i class="fa fa-shopping-bag fa-inner-icon fa-icon"></i>
+                            </a>
+                        </h2>
+                    </li>
+                    <li>
+                        <h2>
+                            <a href="" class="a-flex">
+                                <i class="fa fa-refresh fa-inner-icon fa-icon"></i>
+                            </a>
+                        </h2>
+                    </li>
+                    <li>
+                        <h2>
+                            <a href="" class="a-flex">
+                                <i class="fa fa-shopping-cart fa-inner-icon fa-icon"></i>
+                            </a>
+                        </h2>
+                    </li>
+                    <li>
+                        <h2>
+                            <a href="" class="a-flex">
+                                <i class="fa fa-vcard-o fa-inner-icon fa-icon"></i>
+                            </a>
+                        </h2>
+                    </li>
+                    <li>
+                        <h2>
+                            <a href="" class="a-flex">
+                                <i class="fa fa-book fa-inner-icon fa-icon"></i>
+                            </a>
+                        </h2>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main-header">
+        <header>
+            <div class="inner-flex-header">
+                <div class="main-left-default-text">
+                    <div class="default-txt">
+                    </div>
+                    <div class="inner-header">
+                        <label for="nav-toggle" class="bar-label">
+                            <span class="fa fa-bars"></span>
+                        </label>
+                        <div class="inner-search">
+                            <div id="search-wrapper">
+                                <i class="search-icon fa fa-search"></i>
+                                <input type="text" id="search">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-right-default-text">
+                    <div class="icons-sign">
+                        <i class="fa fa-bell top--icons"></i>
+                        <i class="fa fa-gear top--icons"></i>
+                        <small class="text---flex" style="color: #ffffff;font-weight: 600;">Sign in</small>
+                        <i class="fa fa-user-circle-o top--icons"></i>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="main-box-left-right">
+                <div class="box-bar-left">
+                    <h4>ICO TOKEN BALANCE
+                    </h4>
+                    <div class="inner-box-toke">
+                        <div class="inner-left-token">
+                            <p style="padding: 10px 0px;font-weight: bold;">Your Balance:</p>
+                            <h2 style="font-size: 30px !important;">3,469.90 CIC</h2>
+                            <p style="padding: 10px 0px;">Welcome bonus +30% expires in 21 days.
+                            </p>
+                        </div>
+
+                        <div class="inner-right-token">
+                            <button> Widthdraw ></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-bar-right">
+                    <h4>TOKEN SALE PROGRESS
+                    </h4>
+
+                    <div class="inner-bar-right">
+                        <div class="a0-box-main">
+                            <div class="inner-box-main-left">
+                                $0
+                            </div>
+                            <div class="inner-box-main-right">
+                                $5M
+                            </div>
+                        </div>
+                        <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-container w3-blue w3-round-xlarge" style="width:55%"></div>
+                        </div>
+                        <div class="a0-box-main">
+                            <div class="inner-box-main-left">
+                                Distributed
+                            </div>
+                            <div class="inner-box-main-right">
+                                Contributed
+                            </div>
+                        </div>
+
+                        <div class="a0-box-main">
+                            <div class="inner-box-main-left">
+                                6,235,125 CIC </div>
+                            <div class="inner-box-main-right">
+                                5478 ETH | 80 BTC
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h4 style="margin:50px 10px 20px 10px;padding-bottom: 10px;">RECENT TRANSACTIONS
+            </h4>
+            <div class="main-input-box">
+                <div class="inner-main-box">
+                    <div class="inner-left-input">
+                        <div class="ai">
+                            <input type="text" placeholder="ICO Token">
+                        </div>
+                        <div class="a2">
+                            <input type="text" placeholder="ETH">
+                        </div>
+                        <div class="a3">
+                            <input type="text" placeholder="Wallet Address">
+                        </div>
+                        <button>Buy Now</button>
+                    </div>
+                    <!-- <div class="inner-right-input">
+                    </div> -->
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+
+
+</body>
+
+</html>
